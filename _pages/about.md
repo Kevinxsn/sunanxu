@@ -2,33 +2,28 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
+subtitle: Computer Science Ph.D. student · Bioinformatics · UC San Diego
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: IMG_6260.JPG
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
+    <p>University of California, San Diego</p>
+    <p>San Diego, California</p>
+selected_papers: true
+social: true
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
+  enabled: false
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Ph.D. student in Computer Science at **UC San Diego**, specializing in **Bioinformatics**. I develop computational methods to connect complex biological measurements with the sequences and regulatory mechanisms behind them.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My current research with **Prof. Pavel Pevzner** focuses on de novo sequencing of long, highly charged peptides. I combine two-dimensional mass–mass spectrometry with algorithm design and protein language models to reconstruct sequences that are difficult to resolve with conventional approaches.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I have also worked on single-cell gene regulatory networks with **Prof. Bing Ren** and on large language model evaluation with **Prof. Jingbo Shang**. Across these projects, I am interested in how we can combine biological knowledge, statistical reasoning, and machine learning to make predictions more reliable and interpretable.
+
+I earned my B.S. at UC San Diego in 2025, double majoring in Data Science and Bioinformatics. Alongside research, I enjoy helping students build intuition for algorithms, data science, and biology through [teaching]({{ '/teaching/' | relative_url }}).
+
+[Explore my research]({{ '/research/' | relative_url }}) · [Read my CV]({{ '/cv/' | relative_url }}) · [Get in touch](mailto:sux002@ucsd.edu)
