@@ -219,6 +219,10 @@ kramdown:
 # Includes & excludes
 include: ["_pages"]
 exclude:
+  # These linked agent folders do not belong in the site or the file watcher.
+  - .agents/
+  - .claude/
+  - .codex/
   # Retain template examples in source, but keep them out of my website.
   - _posts/
   - _projects/

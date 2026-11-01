@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Run Jekyll with automatic rebuilds.
+set -euo pipefail
+
+site_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$site_root"
+
+runtime="$site_root/vendor/dev-runtime"
+export BUNDLE_GEMFILE="$site_root/Gemfile"
+
+if [[ -x "$runtime/ruby/bin/ruby" && -f "$runtime/gems/bin/bundle" ]]; then
+  export PATH="$runtime/ruby/bin:$runtime/bin:$PATH"
+  export GEM_HOME="$runtime/gems"
+  export GEM_PATH="$runtime/gems"
+  export BUNDLE_PATH="$site_root/vendor/bundle"
+  bundler=("$runtime/ruby/bin/ruby" "$runtime/gems/bin/bundle")
+else
+  # On other computers, use Ruby and Bundler installed by the site owner.
+  bundler=(bundle)
+fi
+
+exec "${bundler[@]}" exec jekyll serve --host 127.0.0.1 --port 4000 "$@"
