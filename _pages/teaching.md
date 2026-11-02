@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Helping students connect concepts with practice.
+description: Teaching Experience
 nav: true
 nav_order: 3
 ---
