@@ -8,7 +8,7 @@ profile:
   image: IMG_6260.JPG
   image_circular: false
   more_info: >
-    <p>CSE 4250, University of California, San Diego</p>
+    <p>CSE 4250, University of California - San Diego</p>
     <p>La Jolla, California</p>
 selected_papers: true
 social: true
