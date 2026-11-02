@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Bioinformatics Ph.D. student · UC San Diego
 profile:
@@ -28,4 +28,4 @@ During my undergraduate studies, I worked with [**Prof. Bing Ren**](https://www.
 
 Alongside research, I enjoy helping students build intuition for algorithms, data science, and biology through [teaching]({{ '/teaching/' | relative_url }}).
 
-[Explore my research]({{ '/research/' | relative_url }}) · [Read my CV]({{ '/cv/' | relative_url }}) · [Get in touch](mailto:sux002@ucsd.edu)
+[Explore my research]({{ '/research/' | relative_url }}) · [Google Scholar](https://scholar.google.com/citations?user=vaVriA0AAAAJ&hl=en&oi=ao) · [Get in touch](mailto:sux002@ucsd.edu)

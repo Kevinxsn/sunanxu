@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description: Helping students connect concepts with practice.
 nav: true
 nav_order: 3
@@ -18,9 +18,9 @@ I support students through office hours and one-on-one discussions about data ma
 
 Courses I have supported:
 
-- **CSE 101 — Design and Analysis of Algorithms**
-- **DSC 80 — The Practice and Application of Data Science**
-- **DSC 30 — Data Structures and Algorithms for Data Science**
+- **DSC 30 — Data Structures and Algorithms for Data Science (WI25, FA24, S123, SP23)**
+- **DSC 40A — Theoretical Foundations of Data Science (WI24)**
+- **DSC 80 — The Practice and Application of Data Science (FA24, SP24, FA23)**
 
 ## Biological sciences
 
@@ -29,9 +29,6 @@ March–June 2024
 
 I supported laboratory sessions and discussion groups in molecular biology and genetics, guiding students through experimental procedures and helping them connect laboratory work with the underlying concepts. I also developed and graded exams and assignments, with feedback on biological processes and laboratory techniques.
 
-## Community & outreach
+Courses I have supported:
 
-**Undergraduate Bioinformatics Student Club**<br>
-September 2023–June 2025
-
-I helped organize talks and workshops with faculty, industry partners, and graduate students to introduce research and career opportunities in bioinformatics. I also participated in outreach at local high schools to introduce students to the field.
+- **BIMM 100 — Molecular Biology (SP24)**

@@ -4,23 +4,22 @@ The site uses the existing al-folio layouts without local layout, include, or Sa
 
 ## Content
 
-| Content                 | File                       |
-| ----------------------- | -------------------------- |
-| Biography and portrait  | `_pages/about.md`          |
-| Research and CV entries | `_data/cv.yml`             |
-| Research page structure | `_pages/research.md`       |
-| Publication records     | `_bibliography/papers.bib` |
-| Teaching and outreach   | `_pages/teaching.md`       |
-| Email and GitHub links  | `_data/socials.yml`        |
-| Site title and metadata | `_config.yml`              |
+| Content                                 | File                       |
+| --------------------------------------- | -------------------------- |
+| Biography and portrait                  | `_pages/about.md`          |
+| Research content and structure          | `_pages/research.md`       |
+| Publication records                     | `_bibliography/papers.bib` |
+| Teaching and outreach                   | `_pages/teaching.md`       |
+| Email, GitHub, and Google Scholar links | `_data/socials.yml`        |
+| Site title and metadata                 | `_config.yml`              |
 
-In `_data/cv.yml`, find `position: Research with Tiffany`. Fill in her name, project title, dates, summary, and highlights, then remove `reserved: true`. Research entries with `type: research` appear on both the Research page and the CV. The existing GRN work and January 2024–March 2026 dates belong to Bing Ren, as confirmed during setup.
+Edit research titles, advisors, dates, descriptions, and bullet points directly in `_pages/research.md`. The Research page is independent of `_data/cv.yml`.
 
-BMS is omitted. The original PDF is not copied or linked because it contains that experience. The CV page uses `_data/cv.yml`; `assets/json/resume.json` is unused basic contact metadata. Add a revised PDF later by setting `cv_pdf` in `_pages/cv.md`.
+The CV page has been removed. `_data/cv.yml` is retained as source data, and `assets/json/resume.json` is unused basic contact metadata. The original CV PDF is not copied or linked.
 
 The original photo is used unchanged at `assets/img/IMG_6260.JPG`. Demo collections and unused pages remain in source but are excluded from the build, navigation, and search.
 
-Publication metadata is linked to the [EMNLP proceedings](https://aclanthology.org/2024.emnlp-main.990/) and the [brain atlas preprint record](https://pubmed.ncbi.nlm.nih.gov/41676689/). The latter remains labeled as a preprint.
+Publication metadata lives in `_bibliography/papers.bib`. The brain atlas article is labeled “Cell (in print)” as requested by the site owner; its existing preprint DOI link is retained until a Cell article URL is supplied. The Publications and About pages link to the owner's Google Scholar profile.
 
 ## Preview
 

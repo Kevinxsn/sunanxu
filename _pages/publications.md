@@ -1,13 +1,13 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description: My work in regulatory genomics and language model evaluation.
+title: Publications
+description:
 nav: true
 nav_order: 2
 ---
 
-I work across computational biology and machine learning. My publications below include a bioRxiv preprint and a peer-reviewed EMNLP conference paper.
+[Google Scholar](https://scholar.google.com/citations?user=vaVriA0AAAAJ&hl=en&oi=ao)
 
 <div class="publications">
 
