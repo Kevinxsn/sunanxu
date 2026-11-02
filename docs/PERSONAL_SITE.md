@@ -29,7 +29,7 @@ For automatic rebuilds, run from this folder:
 ./bin/dev
 ```
 
-Open `http://127.0.0.1:4000/al-folio/` and keep the terminal running while you edit. Saving Markdown, bibliography, or data files rebuilds the site; refresh the browser to see the result. Press `Ctrl+C` to stop the server. After changing `_config.yml`, stop and restart the server so Jekyll loads the new settings.
+Open `http://127.0.0.1:4000/` and keep the terminal running while you edit. Saving Markdown, bibliography, or data files rebuilds the site; refresh the browser to see the result. Press `Ctrl+C` to stop the server. After changing `_config.yml`, stop and restart the server so Jekyll loads the new settings.
 
 The launcher does not enable Jekyll's optional LiveReload browser refresh because the theme's Content Security Policy blocks its separate WebSocket port. Automatic rebuilding works without it.
 
@@ -52,7 +52,7 @@ bundle exec jekyll serve --host 127.0.0.1
 
 ## GitHub Pages
 
-The deployment workflow uses `_config.github.yml` to serve the `Kevinxsn/sunanxu` repository at `/sunanxu`. The base configuration keeps `/al-folio` for local development and the starter checks. If the repository name or domain changes, update the deployment configuration too.
+The deployment workflow uses `_config.yml` and `_config.github.yml` to serve the `Kevinxsn/sunanxu` repository at `https://sunanxu.com` with an empty `baseurl`. `CNAME` preserves the custom domain in the published site. Local previews also serve at the root. If the domain changes, update both configuration files and `CNAME`.
 
 Build the deployment version with:
 

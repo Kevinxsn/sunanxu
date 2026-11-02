@@ -1,4 +1,4 @@
 # Deployment configuration for github.com/Kevinxsn/sunanxu.
-# Local development retains /al-folio as required by the starter.
-url: https://kevinxsn.github.io
-baseurl: /sunanxu
+# Keep deployment aligned with the custom domain in _config.yml.
+url: "https://sunanxu.com"
+baseurl: ""
