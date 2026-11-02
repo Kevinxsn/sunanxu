@@ -9,7 +9,7 @@ nav_order: 3
 
 I enjoy making technical ideas approachable through hands-on exercises, individual guidance, and detailed feedback. My teaching experience at UC San Diego spans computer science, data science, and biological sciences.
 
-## Computer science & data science
+## Computer Science & Data Science
 
 **Teaching Assistant · UC San Diego**<br>
 January 2022–present
@@ -22,7 +22,7 @@ Courses I have supported:
 - **DSC 40A — Theoretical Foundations of Data Science (WI24)**
 - **DSC 80 — The Practice and Application of Data Science (FA24, SP24, FA23)**
 
-## Biological sciences
+## Biological Sciences
 
 **Undergraduate Instructional Assistant · UC San Diego**<br>
 March–June 2024
