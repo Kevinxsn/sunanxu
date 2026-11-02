@@ -1,6 +1,6 @@
 # Editing my personal site
 
-The site uses the existing al-folio layouts without local layout, include, or Sass overrides.
+The site uses the existing al-folio layouts. A local `assets/css/main.scss` entry point loads the gem's styles with a sky-blue palette: `#0369a1` in light mode and `#7dd3fc` in dark mode, with matching hover colors. Edit the palette there; `.al-folio-overrides.yml` tracks the upstream stylesheet version for future upgrades.
 
 ## Content
 

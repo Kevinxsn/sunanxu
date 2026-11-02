@@ -11,7 +11,7 @@ I build computational methods for reconstructing biological sequences, understan
 
 ## De novo sequencing of long, highly charged peptides
 
-**Advisor: Prof. Pavel Pevzner**<br>
+**Advisor: [Prof. Pavel Pevzner](https://jacobsschool.ucsd.edu/faculty/profile?id=119)**<br>
 Computer Science and Engineering, UC San Diego · September 2025–present
 
 The recently proposed two-dimensional partial covariance mass spectrometry generates information about fragment-fragment correlations (FFCs) rather than individual fragment ions like in traditional tandem mass spectrometry. While the FFC approach is foundational to coincidence/covariance spectroscopy—a Nobel Prize-winning technique originating in nuclear physics—until recently, its applications have been limited to very small molecules. However, coincidence/covariance spectroscopy was recently extended to proteomics by introducing a new mode of spectral acquisition that generates FFC maps. FFC maps convert peptide sequencing from inference based on isolated fragment masses into inference based on experimentally observed relationships between fragments. We introduce DeNovoFFC, a computational framework designed to exploit this new information. By applying DeNovoFFC to FFC maps generated using the new capabilities of the Astral mass spectrometer, we demonstrate the feasibility of de novo sequencing of long peptides (>30 amino acids)—a longstanding challenge for peptide sequencing approaches.
@@ -20,7 +20,7 @@ The recently proposed two-dimensional partial covariance mass spectrometry gener
 
 ## Single-cell gene regulatory networks for the adult mouse brain
 
-**Advisor: Prof. Bing Ren**<br>
+**Advisor: [Prof. Bing Ren](https://www.nygenome.org/about-us/our-people/senior-leadership/bing-ren-phd/)**<br>
 Institute for Genomic Medicine, UC San Diego · January 2024–October 2026
 
 Histone modifications underpin the cell-type-specific gene regulatory programs that drive the remarkable
@@ -42,8 +42,8 @@ sive framework for annotating the brain regulatory genome and interpreting non-c
 
 ## CHEWS improves cis-heritability precision over individual-level GCTA for sparse regulation in small samples
 
-**Advisor: Prof. Tiffany Amariuta**
-Institute for Genomic Medicine, UC San Diego · January 2024–March 2026
+**Advisor: [Prof. Tiffany Amariuta](https://amariutalab.org)**<br>
+Halıcıoğlu Data Science Institute, UC San Diego · January 2024–March 2026
 
 We developed CHEWS (Cis-Heritability Estimation With SuSiE), a method for estimating cis-SNP heritability (cis-h²) using fine-mapped genetic effects and summary statistics, without requiring individual-level genotype data. We benchmarked CHEWS against GCTA across 20,294 simulation pairs spanning 350 genomic regions, varying sample size, heritability, genetic architecture, allele frequency, and linkage disequilibrium. We further evaluated both methods using gene expression data from 19,432 genes in GTEx v8 whole blood.
 
@@ -53,7 +53,7 @@ CHEWS demonstrated greater accuracy than GCTA in small samples and sparse geneti
 
 ## Data contamination in large language models
 
-**Advisor: Prof. Jingbo Shang**<br>
+**Advisor: [Prof. Jingbo Shang](https://shangjingbo1226.github.io)**<br>
 Halıcıoğlu Data Science Institute, UC San Diego · January 2023–September 2025
 
 The opacity in developing large language mod- els (LLMs) is raising growing concerns about the potential contamination of public bench- marks in the pre-training data. Existing contam- ination detection methods are typically based on the text overlap between training and eval- uation data, which can be too superficial to re- flect deeper forms of contamination. In this paper, we first present a cross-lingual form of contamination that inflates LLMs’ perfor- mance while evading current detection meth- ods, deliberately injected by overfitting LLMs on the translated versions of benchmark test sets. Then, we propose generalization-based approaches to unmask such deeply concealed contamination. Specifically, we examine the LLM’s performance change after modifying the original benchmark by replacing the false an- swer choices with correct ones from other ques- tions. Contaminated models can hardly gener- alize to such easier situations, where the false choices can be not even wrong, as all choices are correct in their memorization. Experimen- tal results demonstrate that cross-lingual con- tamination can easily fool existing detection methods, but not ours. In addition, we dis- cuss the potential utilization of cross-lingual contamination in interpreting LLMs’ working mechanisms and in post-training LLMs for en- hanced multilingual capabilities. The code and dataset we use can be obtained from https:// github.com/ShangDataLab/Deep-Contam.
