@@ -18,9 +18,14 @@ I support students through office hours and one-on-one discussions about data ma
 
 Courses I have supported:
 
-- **DSC 30 — Data Structures and Algorithms for Data Science (WI25, FA24, S123, SP23)**
-- **DSC 40A — Theoretical Foundations of Data Science (WI24)**
-- **DSC 80 — The Practice and Application of Data Science (FA24, SP24, FA23)**
+- **DSC 30 — Data Structures and Algorithms for Data Science (WI25, FA24, [S123](https://dsc-courses.github.io/dsc30-2023-su/), SP23)**<br>
+  Instructors: [Kevin Lin](https://kevinl.info) and [Soohyun Nam Liao](https://datascience.ucsd.edu/people/soohyun-nam-liao/)
+
+- **DSC 40A — Theoretical Foundations of Data Science (WI24)**<br>
+  Instructor: [Aobo Li](https://aobol.github.io/AoboLi/)
+
+- **DSC 80 — The Practice and Application of Data Science (FA24, [SP24](https://dsc-courses.github.io/dsc80-2024-sp/staff/), FA23)**<br>
+  Instructor: [Sam Lau](https://lau.ucsd.edu)
 
 ## Biological Sciences
 
