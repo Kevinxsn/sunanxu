@@ -23,19 +23,9 @@ The recently proposed two-dimensional partial covariance mass spectrometry gener
 **Advisor: [Prof. Bing Ren](https://www.nygenome.org/about-us/our-people/senior-leadership/bing-ren-phd/)**<br>
 Institute for Genomic Medicine, UC San Diego · January 2024–October 2026
 
-Histone modifications underpin the cell-type-specific gene regulatory programs that drive the remarkable
-
-cellular diversity of the mammalian brain. Here, we jointly profiled four histone modifications and the tran-
-scriptome in 2.5 million nuclei from the adult mouse brain. By integrating these data with chromatin acces-
-sibility, DNA methylation, and three-dimensional genome organization, we constructed a unified epigenomic
-
-atlas spanning over 100 brain cell subclasses and assigned active, primed, and repressive chromatin
-states across 81% of the genome. Active chromatin states marked by combinatorial histone modifications
-better nominate candidate enhancers with functional support than chromatin accessibility alone, while
-H3K27me3- and H3K9me3-marked chromatin states delineate distinct modes of cell-type-specific gene
-repression. Finally, this multimodal resource enables the development of deep learning models that predict
-
-cell-type-specific epigenomic features and gene expression from DNA sequence, providing a comprehen-
+Histone modifications underpin the cell-type-specific gene regulatory programs that drive the remarkable cellular diversity of the mammalian brain. Here, we jointly profiled four histone modifications and the tran-
+scriptome in 2.5 million nuclei from the adult mouse brain. By integrating these data with chromatin accessibility, DNA methylation, and three-dimensional genome organization, we constructed a unified epigenomic atlas spanning over 100 brain cell subclasses and assigned active, primed, and repressive chromatin states across 81% of the genome. Active chromatin states marked by combinatorial histone modifications
+better nominate candidate enhancers with functional support than chromatin accessibility alone, while H3K27me3- and H3K9me3-marked chromatin states delineate distinct modes of cell-type-specific gene repression. Finally, this multimodal resource enables the development of deep learning models that predict cell-type-specific epigenomic features and gene expression from DNA sequence, providing a comprehen-
 sive framework for annotating the brain regulatory genome and interpreting non-coding disease risk variants.
 
 <hr>
