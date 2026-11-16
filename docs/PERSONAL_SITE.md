@@ -19,7 +19,7 @@ The CV page has been removed. `_data/cv.yml` is retained as source data, and `as
 
 The original photo is used unchanged at `assets/img/IMG_6260.JPG`. Demo collections and unused pages remain in source but are excluded from the build, navigation, and search.
 
-Publication metadata lives in `_bibliography/papers.bib`. The brain atlas article is labeled “Cell (in print)” as requested by the site owner; its existing preprint DOI link is retained until a Cell article URL is supplied. The Publications and About pages link to the owner's Google Scholar profile.
+Publication metadata lives in `_bibliography/papers.bib`, with a corresponding entry in `_data/cv.yml`. The brain atlas article now uses its final [Cell publication record](https://www.cell.com/cell/fulltext/S0092-8674%2826%2901272-9), including the published title, author list, and journal DOI. The Publications and About pages link to the owner's Google Scholar profile.
 
 ## Preview
 

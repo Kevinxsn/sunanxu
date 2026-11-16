@@ -116,8 +116,8 @@ cv:
           - I collaborated with Production, Quality, and R&D teams to improve workflows,
             product performance, and regulatory compliance.
     Publications:
-      - title: Integrative Single-Cell Epigenomic Atlas Annotates the Regulatory Genome
-          of the Adult Mouse Brain
+      - title: An integrative single-cell epigenomic atlas annotates the regulatory genome
+          of the adult mouse brain
         authors:
           - Zhaoning Wang
           - Songpeng Zu
@@ -126,9 +126,9 @@ cv:
           - Sunan Xu
           - "…"
           - Bing Ren
-        publisher: bioRxiv (preprint)
-        releaseDate: "2026-02-07"
-        url: https://doi.org/10.64898/2026.02.07.704075
+        publisher: Cell
+        releaseDate: "2026-11-12"
+        url: https://www.cell.com/cell/fulltext/S0092-8674(26)01272-9
       - title: Data Contamination Can Cross Language Barriers
         authors:
           - Feng Yao
